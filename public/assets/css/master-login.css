@@ -1,0 +1,60 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
+.text-poppins{
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-image: url("../img/bg.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+#bg {
+  
+}
+
+.center-abs{
+  position: absolute;
+  margin: auto;
+  left: 0;right: 0;top: 0;bottom: 0;
+  height: 50%;width: 50%;
+  min-width: 300px; max-width: 400px;
+  min-height: 400px; max-height: 500px;
+}
+
+.bg-img-dollar{
+  background-image: url(../img/bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.form-control.mz-form{
+  border-radius: 30px;
+} 
+
+.btn.mz-btn{
+  border-radius: 30px;;
+}
+.card.mz-login-card{
+  background-color: rgba(255, 255, 255,65%);
+  min-width: 240px;
+  max-width: 400px;
+}
+
+input.borderless{
+  border: 0px solid #ced4da;
+}
+
+.wrapper{
+  padding-top: 5%;
+  padding-bottom: 10px;
+}

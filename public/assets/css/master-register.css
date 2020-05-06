@@ -1,0 +1,92 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
+.text-poppins{
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-image: url("../img/gradient.jpg");
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+#bg{
+ 
+}
+
+/* wrapper */
+.wrapper{
+  padding-top: 2%;
+  padding-bottom: 10px;
+  margin-right: auto;margin-left: auto;
+}
+
+@media (min-width: 576px){
+  .wrapper {
+      max-width: 540px;
+  }
+}
+@media (min-width: 768px){
+  .wrapper {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px){
+.wrapper {
+  max-width: 960px;
+  }
+}
+
+
+
+/* roundless */
+.roundless{
+  border-radius: .1rem;
+}
+
+.drop-shadow{
+  box-shadow:  0px 0px 11px 2px #00000078;
+}
+
+/* interview background */
+.bg-interview{
+  background-image: url(../img/Job-Interview.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* handshake background */
+.bg-hand{
+  background-image: url(../img/handshake.png);
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  
+}
+
+/* utils */
+.form-control.border-bottom{
+  padding-right: 2px;padding-left: 2px;
+  border: none;
+  border-bottom: 2px solid #ced4da !important;
+  border-radius: 0;
+}
+
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  outline: 1;
+  box-shadow: 0 0 0 0.2rem rgba(0,0,0,0) !important; 
+}
+
+.btn.roundmax{
+  border-radius: 2rem;
+}

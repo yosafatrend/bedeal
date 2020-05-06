@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+/* --------- */
+
+.bg-light-transparent{
+    background-color: rgba(255,255,255,40%);
+    transition: background-color 200ms linear;
+}
+
+/* fonts config */
+.font-segoe{
+    font-family: 'Segoe UI';
+}
+
+.font-poppins{
+  font-family: 'Poppins', sans-serif;
+}
+
+/* nav */
+.nav-link.mz{
+    color: rgb(241, 241, 241)!important;
+    transition: color 200ms linear;
+}
+
+.nav-item.active a{
+    color: #21509B!important;
+}
+.nav-item a{
+    font-size:  12px;
+    font-weight:   650;
+}
+.navbar.scrolled{
+    background-color: #fff!important;
+    transition: background-color 300ms linear;
+}
+.nav-link.scrolled{
+    color: #000!important;
+    transition: color 200ms linear;
+}
+
+/* vertical divider */
+.v-line {
+    border-left: 1px solid white;
+    height: 100%;
+    transition: border-left 200ms linear;
+}
+.v-line.black {
+    border-left: 1px solid rgb(0, 0, 0);
+    height: 100%;
+    transition: border-left 200ms linear;
+}
+
+
+/* background front */
+.home-bg{
+    min-height: 728px!important;
+    padding-top: 11em;
+
+    background-image: url('../img-dashboard/homebg.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+
+
+/* utils */
+/* full round */
+.font-weight-thin{
+    font-weight: 1 !important;
+}
+.btn-round{
+    border-radius: 30px;
+}
+
+.w-max-576{
+    max-width: 576px!important;
+}
+
+.noround{
+    border-radius: 0 !important;
+}
+
+/* font smoothing */
+body{
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* section title */
+.section-title .h-line{
+    max-width: 50px;
+    min-height: 1px;
+    border-bottom: 2px solid #33B14C;
+}
+
+/* colors */
+.bg-why{
+    background-color: #f3f3f3!important;
+}
+
+.bg-dark2{
+    background-color: #191919!important;
+}
+footer{
+    border: 0px;
+}
+.mulai{
+    margin-top: 40px;
+    padding-left: 27px;
+    padding-right: 27px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-radius: 30px;
+    color: #fff;
+}
+#tentang{
+    padding-top: 180px;
+    padding-bottom: 200px;
+}
+.why{
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+/* front title */
+@media screen and (min-width: 768px){
+    .front-title{
+        padding-top: 45px;
+        font-size: 3.8rem !important;
+    }
+    .font-weight-thin{
+        font-size: 25px;
+    }
+}
